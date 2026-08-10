@@ -7,14 +7,29 @@ body {
   width: 400px;
   background: white;
   margin: 16px auto;
+  padding: 8px; /*needed to increase the whit-space in the background*/
 }
 
 .title,
 .content,
 .button-container {
   background: dodgerblue;
+  border: 0 8px solid white;
+  margin: 8px;
+  padding: 8px;
+}
+
+.title {
+  font-size: 16px;
+}
+
+.button-container {
+  text-align: center;
+  padding: 6px;
 }
 
 button {
   background: white;
+  display: block;
+  margin: auto;
 }
